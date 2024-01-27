@@ -1,0 +1,91 @@
+/* styles.css */
+
+/* Set the default font family for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E6E6FA !important;
+}
+
+/* Center align content within containers with a maximum width of 800px */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Center align heading elements */
+h1 {
+    text-align: center;
+}
+
+/* Styling for search input */
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+/* Styling for individual movie items */
+.movie {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* Styling for images within movie items */
+.movie img {
+    width: 100px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+/* Styling for favorite button */
+.favorite {
+    color: red;
+}
+
+/* Styling for the container of favorite results */
+#favResults {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/* Styling for the unordered list of favorites */
+.favoritesUl {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/* Styling for individual list items within the favorites list */
+.favoritesUl li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid #ccc;
+}
+
+/* Styling for movie details section */
+#movieDetails {
+    display: block;
+    width: 100% !important; /* Override any width set elsewhere */
+    margin: 0 auto; /* Center align the movie details section */
+}
+
+/* Styling for the section containing movie details */
+#movieDetailSection {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Styling for the movie poster image */
+#poster {
+    width: 200px;
+    margin-right: 20px;
+}
